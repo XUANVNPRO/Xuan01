@@ -1,6 +1,6 @@
 getfenv().death = false
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Marco8642/science/refs/heads/ok/dead%20rails"))()
-task.wait(1)
+task.wait(1) 
 
 local p, c = game.Players.LocalPlayer, p.Character or p.CharacterAdded:Wait()
 local r, h, g = c:FindFirstChild("HumanoidRootPart"), c:FindFirstChild("Humanoid"), c:FindFirstChild("Revolver") or p.Backpack:FindFirstChild("Revolver")
