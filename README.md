@@ -1,3 +1,4 @@
+getfenv().death = false
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Marco8642/science/refs/heads/ok/dead%20rails"))()
 task.wait(1)
 
